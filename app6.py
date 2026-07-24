@@ -15,15 +15,10 @@ if sign =='/':
 st.write(num1,sign,num2)
 st.number_input("ادخل اجابتك")
 if st.button("تاكيد الاجابه "):
-if number==sc:
- st.write("انت عبقري ")
- num=+1
+ if number==sc:
+  st.write("انت عبقري ")
+  num=+1
 else:
-st.write("انت غبي ")
-num=0
-if st.button (" السؤال التالي "):
- number
-st.write ("نقاطك تكون ", num)
+ st.write("انت غبي ")
+ num=0
 
-st.title("أهلا بك في لعبه الذكاء التابعه ل محمد احمد رياض ")
- 
