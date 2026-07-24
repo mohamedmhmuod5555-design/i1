@@ -15,7 +15,7 @@ if sign =='/':
 st.write(num1,sign,num2)
 st.number_input("ادخل اجابتك")
 if st.button("تاكيد الاجابه "):
- if number==sc:
+if number==sc:
  st.write("انت عبقري ")
  num=+1
 else:
